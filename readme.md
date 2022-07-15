@@ -11,4 +11,4 @@ A simple information site build with tailwind css and react express. The user ca
 
 The app is created with tailwind css adding responsive design to the layout for different screens sizes.
 
-<a href='https://basic-informational-site.panoskoul.repl.co/'>Project's link deployed with repl </a>
+&rarr <a href='https://basic-informational-site.panoskoul.repl.co/'>Project's link deployed with repl.</a>
