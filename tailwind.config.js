@@ -1,8 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.{ html,js,css}', './views/index.ejs'],
+  mode: 'jit',
+  content: ['./*.{ html,js,css}', './views/*.ejs', './views/partial/*.ejs'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: ['Rubik'],
+      },
+    },
   },
   plugins: [],
 };

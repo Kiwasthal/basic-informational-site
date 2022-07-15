@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
-    "tailwind:css": "postcss public/styles/tailwind.css -o public/styles/style.css"
+    "tailwind:css": "postcss ./tailwind.css -o public/styles/style.css",
+    "watch-tailwind": "npx tailwindcss -i ./tailwind.css -o public/styles/style.css -w --minify"
   },
   "repository": {
     "type": "git",
