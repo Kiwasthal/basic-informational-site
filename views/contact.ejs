@@ -6,8 +6,25 @@
   <body class="text-gray-600 font-body">
     <div class="content">
       <%-include('./partial/nav.ejs') %>
-      <main class="mb-auto h-10">
-        <div class="text-yellow-500 uppercase">About</div>
+      <main class="mb-auto h-10 col-span-1 flex flex-col items-center">
+        <div class="text-blue-400 uppercase text-3xl p-5">Contact me</div>
+        <span>Email : <span class="font-bold">imthekoul@gmail.com</span></span>
+        <div class="h-60 mt-4 mb-4">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:border-none focus:outline-none dark:bg-gray-700 dark:border-gray-600 focus:ring dark:placeholder-gray-400 dark:text-white resize-none transition-colors duration-300 eas"
+            placeholder="Your message..."
+          ></textarea>
+        </div>
+        <button
+          type="button"
+          class="text-white bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none font-medium rounded-lg text-lg px-7 py-2.5 text-center mr-2 mb-2"
+        >
+          SEND
+        </button>
       </main>
       <%-include('./partial/footer.ejs') %>
     </div>
